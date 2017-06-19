@@ -1,0 +1,41 @@
+<!--
+  Generated template for the Dolci page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'Dolci' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-list>
+  <ion-item-divider text-center>
+    {{ 'Postres Bajos en Calorías y sin Azúcar' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of bajosEnCalorias" (click)="viewProduct(product, bajosEnCalorias)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Postres I Dolci' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of postres" (click)="viewProduct(product, postres)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+</ion-list>
+</ion-content>

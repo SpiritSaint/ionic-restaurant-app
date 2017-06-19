@@ -1,0 +1,27 @@
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" swipeBackEnabled="false"></ion-nav>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons start class="ion-buttons-margin-right">
+      <button ion-button icon-right outline (click)="toggleBack()">
+        {{ 'Volver' | translate }}
+      </button>
+    </ion-buttons>
+    <ion-buttons start>
+      <button ion-button class="ion-buttons-margin-right" outline icon-right (click)="showMenu()">
+        {{ 'Menu' | translate }}
+      </button>
+    </ion-buttons>
+    <ion-buttons start>
+      <button ion-button class="ion-buttons-margin-right" outline icon-right (click)="openSearch()">
+       {{ 'Buscador' | translate }}
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-right (click)="showLanguage()">
+        <img class="currentFlag" src="{{ currentFlag }}"> {{ 'Idioma' | translate }}
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

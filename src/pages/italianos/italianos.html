@@ -1,0 +1,74 @@
+<!--
+  Generated template for the Italianos page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'Italianos' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+<ion-list>
+  <ion-item-divider text-center>
+    {{ 'Blancos' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of blancos" (click)="viewProduct(product, blancos)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Tintos Frizzantes' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of frizzantes" (click)="viewProduct(product, frizzantes)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Tintos Premium' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of premiums" (click)="viewProduct(product, premiums)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Dulces' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of dulces" (click)="viewProduct(product, dulces)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+
+  <ion-item-divider text-center>
+    {{ 'Tintos Iconos' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of iconos" (click)="viewProduct(product, iconos)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+</ion-list>
+</ion-content>

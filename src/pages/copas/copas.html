@@ -1,0 +1,117 @@
+<!--
+  Generated template for the Copas page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'Vinos por Copa' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+<ion-list>
+  <ion-item-divider text-center>
+    {{ 'Sauvignon Blanc' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of sauvignon" (click)="viewProduct(product, sauvignon)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Ensamblaje' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of ensambled" (click)="viewProduct(product, ensambled)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Cabernet Sauvignon' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of carbenets" (click)="viewProduct(product, carbenets)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Syrah' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of syrah" (click)="viewProduct(product, syrah)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Merlot' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of merlot" (click)="viewProduct(product, merlot)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Chardonnay' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of chardonnay" (click)="viewProduct(product, chardonnay)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Espumante' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of espumante" (click)="viewProduct(product, espumante)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Carmenére' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of carmenere" (click)="viewProduct(product, carmenere)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    {{ 'Pinot Noir' | translate }}
+  </ion-item-divider>
+  <ion-item *ngFor="let product of pinot" (click)="viewProduct(product, pinot)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+</ion-list>
+</ion-content>

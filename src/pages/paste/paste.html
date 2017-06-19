@@ -1,0 +1,41 @@
+<!--
+  Generated template for the Paste page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'Paste' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-list>
+  <ion-item-divider text-center>
+    Classiche
+  </ion-item-divider>
+  <ion-item *ngFor="let product of pastesClassiche" (click)="viewProduct(product, pastesClassiche)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+  <ion-item-divider text-center>
+    Borde Rio
+  </ion-item-divider>
+  <ion-item *ngFor="let product of pastesBordeRio" (click)="viewProduct(product, pastesBordeRio)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+</ion-list>
+</ion-content>

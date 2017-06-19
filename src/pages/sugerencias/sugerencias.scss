@@ -1,0 +1,39 @@
+.sugerencias-page {
+
+  .toolbar-background {
+    background: #fff;
+    border-color: transparent;
+  }
+
+  .slide-zoom {
+    height: 100%;
+  }
+
+  .slide-title {
+    margin-top: 2.8rem;
+    color: #FF943E;
+  }
+
+  .slide-image {
+    max-height: 90%;
+    max-width: 90%;
+    margin: 18px 0;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 19px;
+    line-height: 1.5;
+    color: #FFFFFF;
+
+    b {
+      color: #F7F7F7;
+    }
+  }
+
+}

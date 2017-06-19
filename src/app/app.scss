@@ -1,0 +1,77 @@
+// http://ionicframework.com/docs/v2/theming/
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+ion-item-divider {
+	font-size: 24px !important;
+	font-weight: 400;
+}
+
+.toolbar-title-ios {
+	font-size: 4rem !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 400;
+}
+.card-content {
+	h1 {
+		font-weight: 400;
+	}
+}
+.label-ios {
+	font-size: 3.6rem;
+}
+.item-ios {
+	h1 {
+		font-size: 3rem;
+	}
+	p {
+		font-size: 2.4rem;
+	}
+}
+
+.button-outline-ios {
+	.button-inner {
+		font-weight: 400;
+	}
+}
+
+.currentFlag {
+	margin-right: 10px;
+}
+.ion-buttons-margin-right {
+	margin-right: 10px;
+}
+.bar-button-ios {
+	border-radius: 0px;
+	padding: 15px;
+	font-size: 2.2rem !important;
+	border: 3px solid #FF943E;
+	text-transform: uppercase;
+	color: #FF9B4B;
+}
+.bar-button-ios[icon-only] {
+	padding: 15px !important;
+	min-width: 0px;
+}
+.bar-button-outline-ios.activated {
+	color: #FF9B4B;
+	background: #000;
+}
+.fixed-content {
+	margin-top: 74px !important;
+}
+.scroll-content {
+	margin-top: 74px !important;
+}
