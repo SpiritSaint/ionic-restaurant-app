@@ -1,0 +1,44 @@
+<!--
+  Generated template for the Bar page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>Bar</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-grid>
+        <ion-row>
+            <ion-col width-100>
+                <ion-slides loop="true" autoplay="2500" speed="1000" autoplayDisableOnInteraction="false">
+                    <ion-slide>
+                        <img src="assets/img/bar.jpg">
+                    </ion-slide>
+
+                    <ion-slide>
+                        <img src="assets/img/bar.jpg">
+                    </ion-slide>
+                </ion-slides>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col width-50>
+            <button *ngFor="let l of left" ion-button text-uppercase outline block (click)="openPage(l)">
+                    {{ l.title | translate }}
+                </button>
+            </ion-col>
+            <ion-col width-50>
+                <button *ngFor="let r of right" ion-button text-uppercase outline block (click)="openPage(r)">
+                    {{ r.title | translate }}
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
