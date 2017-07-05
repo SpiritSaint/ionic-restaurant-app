@@ -17,7 +17,7 @@ export class TragosPiscos {
         title: 'Pisco Sour Nacional',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 3950
+        price: 4100
       },
       { 
         title: 'Alto del Carmen',

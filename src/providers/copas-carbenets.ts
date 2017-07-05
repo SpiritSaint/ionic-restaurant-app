@@ -14,16 +14,10 @@ export class CopasCarbenets {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Errázuriz Max Reserva',
+        title: 'Cabernet Sauvignon',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 5400
-      },
-      { 
-        title: 'Santa Ema Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 5400
+        price: 5500
       }
     ];
   }

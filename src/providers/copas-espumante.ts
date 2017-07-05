@@ -14,10 +14,10 @@ export class CopasEspumante {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Valdivieso Grand Brut',
+        title: 'Espumante',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 4300
+        price: 5400
       }
     ];
   }

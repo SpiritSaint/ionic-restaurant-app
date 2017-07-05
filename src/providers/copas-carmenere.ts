@@ -14,16 +14,10 @@ export class CopasCarmenere {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Casas Patronales Reserva Privada',
+        title: 'Carmenere',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 5400
-      },
-      { 
-        title: 'Santa Ema Amplus',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 7600
+        price: 5500
       }
     ];
   }

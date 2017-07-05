@@ -14,17 +14,17 @@ export class MediaChardonnays {
   constructor(public http: Http) {
   	this.data = [
       { 
-        title: 'De Martino Legado Gran Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 13100
-      },
-      { 
         title: 'Casablanca Cefiro Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 8700
-      }
+        price: 8900
+      },
+        {
+            title: 'Santa Ema Select Terroir Reserve',
+            photo: 'assets/img/default.jpg',
+            description: '',
+            price: 7400
+        }
     ];
   }
 

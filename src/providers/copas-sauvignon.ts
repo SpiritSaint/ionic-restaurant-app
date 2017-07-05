@@ -14,10 +14,10 @@ export class CopasSauvignon {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'De Martino 347',
+        title: 'Sauvignon Blanc',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 5400
+        price: 5500
       }
     ];
   }

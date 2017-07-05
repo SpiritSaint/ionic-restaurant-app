@@ -14,12 +14,6 @@ export class MediaCarbenets {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Casablanca Cefiro Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 8700
-      },
-      { 
         title: 'Gran Reserva Tarapacá',
         photo: 'assets/img/default.jpg',
         description: '', 
@@ -29,8 +23,20 @@ export class MediaCarbenets {
         title: 'Santa Ema Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 13100
-      }
+        price: 12900
+      },
+      {
+        title: 'Santa Ema Select Terroir Reserve',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 7400
+      },
+      {
+        title: 'Santa Rita Medalla Real',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 6900
+      },
     ];
   }
 

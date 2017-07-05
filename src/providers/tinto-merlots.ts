@@ -17,67 +17,61 @@ export class TintoMerlots {
         title: 'Santa Ema Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 19650
+        price: 18300
       },
-      { 
-        title: 'Santa Rita Medalla Real',
+      {
+        title: 'Casa blanca Céfiro',
         photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 10900
+        description: '',
+        price: 15200
       },
-      { 
-        title: 'Marques de Casa Concha',
+      {
+        title: 'Santa Rita Casa Real',
         photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 22950
+        description: '',
+        price: 18600
       },
       { 
         title: 'Cono Sur Reserva Especial',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 14200
+        price: 15200
       },
-      { 
-        title: 'Casablanca Nimbus Single Vineyard',
+      {
+        title: 'Santa Rita Medalla Real',
         photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 22950
-      },
-      { 
-        title: 'Errázuriz, Max Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 24050
-      },
-      { 
-        title: 'Chateau Los Boldos Gran Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 18550
-      },
-      { 
-        title: 'J.Bouchon Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 13100
-      },
-      { 
-        title: 'Cousiño Macul Antiguas Reservas',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 22950
+        description: '',
+        price: 11900
       },
       { 
         title: 'Tarapacá Gran Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 17500
+        price: 17900
       },
       { 
-        title: 'Tabali Reserva',
+        title: 'Toro de Piedra Gran Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 19650
+        price: 19800
+      },
+      { 
+        title: 'Errázuriz Max Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 19800
+      },
+      { 
+        title: 'J. Bouchon Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 12900
+      },
+      { 
+        title: 'Montes Alpha',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 22500
       }
     ];
   }

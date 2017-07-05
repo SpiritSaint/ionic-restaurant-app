@@ -40,6 +40,18 @@
   </ion-item>
 
   <ion-item-divider text-center>
+    Malbec
+  </ion-item-divider>
+  <ion-item *ngFor="let product of otros" (click)="viewProduct(product, otros)">
+    <ion-thumbnail item-left>
+      <img src="{{ product.photo }}">
+    </ion-thumbnail>
+    <h1>{{ product.title | translate }}</h1>
+    <p>{{ product.description | translate }}</p>
+    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
+  </ion-item>
+
+  <ion-item-divider text-center>
     Ensamblajes Tintos
   </ion-item-divider>
   <ion-item *ngFor="let product of ensamblajes" (click)="viewProduct(product, ensamblajes)">
@@ -55,18 +67,6 @@
     Merlot
   </ion-item-divider>
   <ion-item *ngFor="let product of merlots" (click)="viewProduct(product, merlots)">
-    <ion-thumbnail item-left>
-      <img src="{{ product.photo }}">
-    </ion-thumbnail>
-    <h1>{{ product.title | translate }}</h1>
-    <p>{{ product.description | translate }}</p>
-    <button ion-button clear large item-right>${{ product.price | commaPipe }}</button>
-  </ion-item>
-
-  <ion-item-divider text-center>
-    Otros Tintos
-  </ion-item-divider>
-  <ion-item *ngFor="let product of otros" (click)="viewProduct(product, otros)">
     <ion-thumbnail item-left>
       <img src="{{ product.photo }}">
     </ion-thumbnail>

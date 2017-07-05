@@ -17,13 +17,13 @@ export class DolciBajosEnCalorias {
         title: 'Strudel con Helado Hipocalórico',
         photo: 'assets/img/default.jpg',
         description: '40 Hidratos de Carbono más 10 Hidratos de Carbono del Helado.', 
-        price: 6350
+        price: 6550
       },
       { 
         title: 'Terrina Helada con Galletas de Chocolate',
         photo: 'assets/img/dolce/terrina-helada-con-galletas-de-chocolate.jpg',
         description: '61 Hidratos de Carbono.', 
-        price: 6350
+        price: 6550
       }];  
   }
 

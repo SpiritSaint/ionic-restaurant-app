@@ -17,25 +17,25 @@ export class Analcoholicos {
         title: 'Agua Mineral Italiana',
         photo: 'assets/img/default.jpg',
         description: 'Acqua Panna - San Pellegrino', 
-        price: 3490
+        price: 2600
       },
       { 
         title: 'Jugos',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 3100
+        price: 3200
       },
       { 
         title: 'Bebidas', 
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 2000
+        price: 2200
       },
       { 
         title: 'Aguas Minerales', 
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 2000
+        price: 2200
       }
       ];
   }

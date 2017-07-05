@@ -95,13 +95,13 @@ export class Cervezas {
         title: 'Heineken', 
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 3250 
+        price: 3450
       },
       { 
         title: 'Budweiser', 
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 3250 
+        price: 3450
       },
       { 
         title: 'Mestra Lager Pilsen', 
