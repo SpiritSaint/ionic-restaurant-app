@@ -17,43 +17,43 @@ export class RisottiClassici {
         title: 'Risotto ai Funghi Porcini',
         photo: 'assets/img/risotti/risotto-al-funghi-porcini.jpg',
         description: '', 
-        price: 12350
+        price: 12750
       }, 
       { 
         title: 'Tris di Risotto',
         photo: 'assets/img/risotti/tris-di-risotti.jpg',
         description: '', 
-        price: 12650 
+        price: 13050
       },
       { 
         title: 'Risotto ai Quatro Formaggi', 
         photo: 'assets/img/risotti/rissoti-ai-quatro-formaggi.jpg',
         description: '', 
-        price: 11950
+        price: 12350
       },
       { 
         title: 'Risotto Nero di Seppia', 
         photo: 'assets/img/risotti/risotto-nero-di-sepia.jpg',
         description: '', 
-        price: 12450
+        price: 12850
       },
       { 
         title: 'Risotti ai Funghi', 
         photo: 'assets/img/risotti/risotto-al-funghi.jpg',
         description: '', 
-        price: 11950
+        price: 12350
       },
       { 
         title: 'Risotto Scampi con gambas', 
         photo: 'assets/img/risotti/risotto-scampi.jpg',
         description: '', 
-        price: 12650
+        price: 13050
       },
       { 
         title: 'Risotto Tutto Mare', 
         photo: 'assets/img/risotti/risotto-tutto-mare.jpg',
         description: '', 
-        price: 12650 
+        price: 13050
       }
       ];
     console.log('Hello RisottiClassici Provider');

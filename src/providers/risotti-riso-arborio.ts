@@ -17,38 +17,38 @@ export class RisottiRisoArborio {
         title: 'Del Bosco', 
         photo: 'assets/img/risotti/del-bosco.jpg',
         description: 'Risotto de hongos porcini y avellana tostada.', 
-        price: 12650
+        price: 13050
       },
       { 
         title: 'Limoncillo', 
         photo: 'assets/img/risotti/limoncillo.jpg',
         description: 'Risotto de ostiones, zeste de limón y salsa de albahaca.', 
-        price: 13450
+        price: 13900
       },
       { 
         title: 'Del Pescatore Riso', 
         photo: 'assets/img/risotti/del-pescatore-riso.jpg',
         description: 'Risotto con lo mejor de nuestro mar. Versión natural o con tomate.', 
-        price: 13450 
+        price: 13900
       },
       { 
         title: 'Di Recco', 
         photo: 'assets/img/risotti/di-recco.jpg',
         description: 'Risotto ai cuatro formaggi, alcachofa y tocino.', 
-        price: 11950
+        price: 12350
       },
       { 
         title: 'Palermitano', 
         photo: 'assets/img/risotti/palermitano.jpg',
         description: 'Risotto con salsa putanesca sobre berenjena a la parmesana.', 
-        price: 12650 
+        price: 13050
       },
       { 
         title: 'Di Alberto', 
         photo: 'assets/img/risotti/di-alberto.jpg',
         description: 'Risotto con ciruelas secas, manzanas, frutillas y de 4 quesos.', 
-        price: 11950 
+        price: 12350
       }];
-  }
+}
 
 }

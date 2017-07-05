@@ -13,17 +13,17 @@ export class MediaCarmenere {
   data: any;
   constructor(public http: Http) {
     this.data = [
-      { 
-        title: 'Terranoble Single Vinyard',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 10900
-      },
-      { 
+      {
         title: 'Santa Ema Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 13100
+        price: 12900
+      },
+      {
+        title: 'Santa Ema Select Terroir Reserve',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 7400
       }
     ];
   }

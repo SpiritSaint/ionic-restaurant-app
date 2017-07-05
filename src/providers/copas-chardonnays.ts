@@ -14,10 +14,10 @@ export class CopasChardonnays {
   constructor(public http: Http) {
     this.data = [
  	  {
- 	  	title: 'Cono Sur Reserva Especial',
+ 	  	title: 'Chardonnay',
  	  	photo: 'assets/img/default.jpg',
  	  	description: '',
- 	  	price: 5400
+ 	  	price: 5500
  	  }
     ]
   }

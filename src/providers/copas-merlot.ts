@@ -14,10 +14,10 @@ export class CopasMerlot {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Chateau Los Boldos Vielles Virgnes',
+        title: 'Merlot',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 6500
+        price: 5500
       }
     ];
   }

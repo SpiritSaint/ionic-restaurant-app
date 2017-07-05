@@ -14,52 +14,52 @@ import 'rxjs/add/operator/map';
     constructor(public http: Http) {
       this.data = [
       {
-        title: 'Marques de Casa Concha',
+        title: 'Cono Sur Reserva Especial',
         photo: 'assets/img/default.jpg',
         description: '',
-        price: 20750
+        price: 15200
+      },
+      {
+        title: 'Amayna',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 21900
       },
       {
         title: 'Errázuriz Max Reserva',
         photo: 'assets/img/default.jpg',
         description: '',
-        price: 24050
-      },
-      {
-        title: 'Garcés Silva Amayna',
-        photo: 'assets/img/default.jpg',
-        description: '',
-        price: 25150
-      },
-      {
-        title: 'Santa Rita Medalla Real',
-        photo: 'assets/img/default.jpg',
-        description: '',
-        price: 10900
-      },
-      {
-        title: 'Santa Ema Select Terroir',
-        photo: 'assets/img/default.jpg',
-        description: '',
-        price: 12000
-      },
-      {
-        title: 'Leyda Single Vineyard Garuma',
-        photo: 'assets/img/default.jpg',
-        description: '',
-        price: 16400
+        price: 19800
       },
       {
         title: 'Casas del Bosque Reserva',
         photo: 'assets/img/default.jpg',
         description: '',
-        price: 17500
+        price: 16900
       },
       {
-        title: 'Cariblanco Kingston',
+        title: 'Matetic Corralillo',
         photo: 'assets/img/default.jpg',
         description: '',
-        price: 26850
+        price: 17600
+      },
+      {
+        title: 'Santa Ema Select Terroir',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 13600
+      },
+      {
+        title: 'Santa Rita Medalla Real',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 11900
+      },
+      {
+        title: 'Veramonte Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 16800
       },
       {
         title: 'Matetic Corralillo',

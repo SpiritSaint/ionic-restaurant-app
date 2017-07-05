@@ -14,10 +14,10 @@ export class CopasPinot {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Casablanca Cefiro Reserva',
+        title: 'Pinot Noir',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 5400
+        price: 5500
       }
     ];
   }

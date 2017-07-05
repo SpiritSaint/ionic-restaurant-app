@@ -17,25 +17,31 @@ export class Zuppe {
         title: 'Caldillo de Congrio Due Torri con Mariscos',
         photo: 'assets/img/zuppe/caldillo-de-congrio-con-mariscos.jpg',
         description: '', 
-        price: 16750
+        price: 16900
       },
       { 
         title: 'Caldillo de Congrio Due Torri sin Mariscos',
         photo: 'assets/img/zuppe/caldillo-de-congrio-sin-mariscos.jpg',
         description: '', 
-        price: 14100
+        price: 14900
       },
       { 
         title: 'Minestrone', 
         photo: 'assets/img/zuppe/minestrone.jpg',
         description: '', 
-        price: 9200
+        price: 9500
       },
       { 
         title: 'Cappelletti in brodo Due Torri', 
         photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 9900
+        description: '(Exquisitos)',
+        price: 10200
+      },
+      {
+        title: 'Tagiolini in brodo',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 7850
       }];
   }
 

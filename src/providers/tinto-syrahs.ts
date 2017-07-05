@@ -14,46 +14,64 @@ export class TintoSyrahs {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Lucero Kingston',
+        title: 'Montes Alpha',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 29550
+        price: 22500
       },
       { 
-        title: 'Santa Rita, Medalla Real',
+        title: 'Santa Rita Casa Real',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 10900
+        price: 18600
       },
       { 
-        title: 'Tamaya Reserva',
+        title: 'Casas Patronales Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 18550
+        price: 12900
       },
       { 
-        title: 'Chaman Gran Reserva',
+        title: 'Santa Rita Medalla Real',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 19650
+        price: 11900
       },
       { 
-        title: 'Casas sel Bosque Gran Reserva',
+        title: 'Errázuriz Max Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 24050
+        price: 19800
       },
       { 
-        title: 'Matetic Corralillo',
+        title: 'Ventisquero Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 29550
+        price: 13900
       },
       { 
-        title: 'Casas sel Bosque Gran Reserva',
+        title: 'Koyle Single Vineyard',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 24050
+        price: 18900
+      },
+      {
+        title: 'Veramonte Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 16800
+      },
+      {
+        title: 'Longaví by Bouchon',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 19600
+      },
+      {
+        title: 'Villard Expression',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 18900
       }
     ];
   }

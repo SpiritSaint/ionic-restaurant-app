@@ -14,40 +14,34 @@ export class TintoEnsamblajes {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Primus The Blend',
+        title: 'Ventisquero Grey GAR/CAR/MAT',
         photo: 'assets/img/default.jpg',
-        description: 'Cabernet Sauvignon / Carmenère / Syrah / Petit Verdot', 
-        price: 31750
+        description: '',
+        price: 20900
       },
       { 
-        title: 'Santa Ema Catalina',
+        title: 'Von Siebenthal Parcela 7 CS/CF/ME/PV',
         photo: 'assets/img/default.jpg',
-        description: 'Cabernet Sauvignon / Carmenère / Cabernet Franc', 
-        price: 18550
+        description: '',
+        price: 22900
       },
       { 
-        title: 'Casas Patronaes',
+        title: 'Casa Patronales Reserva CS/CA',
         photo: 'assets/img/default.jpg',
-        description: 'Cabernet Sauvignon / Carmenère', 
-        price: 12000
+        description: '',
+        price: 12900
       },
       { 
-        title: 'Toro de Piedra, Gran Reserva',
+        title: 'J. Bouchon Canto Sur CA/CG/PA',
         photo: 'assets/img/default.jpg',
-        description: 'Syrah / Cabernet Sauvignon', 
-        price: 19650
+        description: '',
+        price: 15900
       },
       { 
-        title: 'Von Siebenthal, Parcela 7',
+        title: 'Toro de Piedra Gran Reserva SY/CS',
         photo: 'assets/img/default.jpg',
         description: 'Cabernet Sauvignon / Cabernet Franc / Merlot / Petit Verdot', 
-        price: 25150
-      },
-      { 
-        title: 'Oveja Negra',
-        photo: 'assets/img/default.jpg',
-        description: 'Cabernet Franc / Carmenère', 
-        price: 10900
+        price: 19800
       }
     ];
   }

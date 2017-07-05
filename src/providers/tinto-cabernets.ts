@@ -14,148 +14,112 @@ export class TintoCabernets {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Santa Ema Select Terroir',
+        title: 'Toro de Piedra Gran Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 12000
+        price: 19800
       },
       { 
-        title: 'Tabalí Reserva',
+        title: 'Casas del Bosque Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 19650
+        price: 16900
       },
       { 
-        title: 'Apaltagua Reserva',
+        title: 'Veramonte Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 14200
-      },
-      { 
-        title: 'Santa Rita casa real',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 18550
-      },
-      { 
-        title: 'Tamaya Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 18550
-      },
-      { 
-        title: 'Castillo de Molina',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 15300
-      },
-      { 
-        title: 'Santa Rita Medalla Real',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 10900
-      },
-      { 
-        title: 'Marques de casa concha',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 22950
-      },
-      { 
-        title: 'Tarapacá Etiqueta Negra',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 25150
-      },
-      { 
-        title: 'De Martino Legado Gran Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 20750
-      },
-      { 
-        title: 'Oveja Negra Single',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 21850
-      },
-      { 
-        title: 'Tarapacá Gran Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 17500
-      },
-      { 
-        title: 'Koyle Single Vineyard',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 20750
-      },
-      { 
-        title: 'Errázuriz Max Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 24050
-      },
-      { 
-        title: 'Terranoble Gran Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 24050
-      },
-      { 
-        title: 'Primus',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 31750
-      },
-      { 
-        title: 'Ventisquero Gray',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 28450
-      },
-      { 
-        title: 'J. Bouchon Block Series Reserva Especial',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 21850
-      },
-      { 
-        title: 'Santa Ema Amplus',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 30650
+        price: 16800
       },
       { 
         title: 'Casas Patronales Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 12000
+        price: 12900
       },
       { 
-        title: 'Santa Ema Reserva',
+        title: 'Las Mercedes Singular',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 19650
+        price: 17500
       },
       { 
-        title: 'Cousiño Macul Antiguas Reservas',
+        title: 'Cono sur Block N°18',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 22950
+        price: 19800
+      },
+      { 
+        title: 'Montes Alpha',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 22500
       },
       { 
         title: 'Cono Sur Reserva Especial',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 14200
+        price: 15200
       },
       { 
-        title: 'Chateau Los Boldos Gran Reserva',
+        title: 'Santa Ema Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 18550
+        price: 17900
+      },
+      { 
+        title: 'Errázuriz Max Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 19800
+      },
+      { 
+        title: 'Santa Ema Select Terroir',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 13600
+      },
+      { 
+        title: 'J. Bouchon Block Series',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 19800
+      },
+      { 
+        title: 'Santa Rita Casa Real',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 18600
+      },
+      { 
+        title: 'Koyle Single Vineyard',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 18900
+      },
+      { 
+        title: 'Santa Rita Medalla Real',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 11900
+      },
+      { 
+        title: 'Apaltagua Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 14800
+      },
+      { 
+        title: 'Tarapacá Gran Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 17900
+      },
+      { 
+        title: 'Aquitania Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 20800
       }
     ];
   }

@@ -17,13 +17,13 @@ export class MediaSauvignons {
         title: 'Santa Rita Medalla Real',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 8700
+        price: 6900
       },
       { 
-        title: 'Matetic Corralillo',
+        title: 'Santa Ema Select Terroir Reserve',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 10900
+        price: 7400
       }
     ];
   }

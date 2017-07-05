@@ -17,49 +17,49 @@ export class InsalateSaladas {
         title: 'Del Granaio',
         photo: 'assets/img/insalate/del-granaio.jpg',
         description: 'Rúcula, tomate cherry, suprema de pollo envuelto en jamón crudo, queso Gruviere y almendra.', 
-        price: 10250
+        price: 10600
       }, 
       { 
         title: 'Felicino',
         photo: 'assets/img/insalate/felicino.jpg',
         description: 'Salmón grillado con verduras, baby mix, salsa de atún.', 
-        price: 10950 
+        price: 11300
       },
       { 
         title: 'Don Gustavo', 
         photo: 'assets/img/default.jpg',
         description: 'Congrio grillado con baby mix, tomate cherry y salsa de mostaza.', 
-        price: 12100
+        price: 12500
       },
       { 
         title: 'Cesare "Due Torri"', 
         photo: 'assets/img/insalate/cesare-due-torri.jpg',
         description: 'Clásica César con centolla austral.', 
-        price: 12350
+        price: 12750
       },
       { 
         title: 'Ensalada César Clásica', 
         photo: 'assets/img/insalate/cesar-clasica.jpg',
         description: '', 
-        price: 8100
+        price: 8350
       },
       { 
         title: 'Tricolore', 
         photo: 'assets/img/insalate/tricolore.jpg',
         description: 'Rúcula, tomate cherry y parmesano.', 
-        price: 8100
+        price: 8350
       },
       { 
         title: 'Ensalada César Camarones', 
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 10950 
+        price: 11300
       },
       { 
         title: 'Ensalada César Pollo', 
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 9450 
+        price: 9750
       }];
   }
 

@@ -23,7 +23,7 @@ export class TragosPiscosPeruanos {
         title: 'Piso Sour Peruano',
         photo: 'assets/img/default.jpg',
         description: 'Inglaterra', 
-        price: 5100
+        price: 5250
       },
       { 
         title: 'Portón',

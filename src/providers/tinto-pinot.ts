@@ -14,46 +14,40 @@ export class TintoPinot {
   constructor(public http: Http) {
     this.data = [
       { 
+        title: 'Montes Alpha',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 22500
+      },
+      { 
+        title: 'Santa Rita Casa Real',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 18600
+      },
+      { 
+        title: 'Veramonte Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 16800
+      },
+      { 
         title: 'Villard Expresion Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 24050
-      },
-      { 
-        title: 'Tobiano, Kingston',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 29550
-      },
-      { 
-        title: 'Montescano 2015',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 34950
-      },
-      { 
-        title: 'Veramonte Ritual',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 29550
+        price: 18900
       },
       { 
         title: 'Cono Sur Reserva Especial',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 14200
+        price: 15200
       },
       { 
-        title: 'Garcés Silva Amayna',
+        title: 'Errázuriz Max Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 33950
-      },
-      { 
-        title: 'Leyda Lot 21',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 35050
+        price: 19800
       }
     ];
   }

@@ -14,35 +14,46 @@ export class BlancoChardonnays {
   constructor(public http: Http) {
   	this.data = [
       { 
-        title: 'Leyda Single Vineyard Fallaris',
+        title: 'Montes Alpha',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 16400
-      },
-      { 
-        title: 'De Martino Legado Gran Reserva',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 20750
+        price: 22500
       },
       { 
         title: 'Santa Rita Medalla Real',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 10900
+        price: 11900
       },
       { 
-        title: 'Casablanca Cefiro Reserva',
+        title: 'Casablanca Céfiro Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 13100
+        price: 15200
       },
-      { 
-        title: 'Cono Sur Reserva Especial',
+      {
+        title: 'Villard Expresion',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 14200
-      }
+        price: 18900
+      }, {
+            title: 'Casas del Bosque Reserva',
+            photo: 'assets/img/default.jpg',
+            description: '',
+            price: 16900
+        },
+        {
+            title: 'Cono Sur Reserva Especial',
+            photo: 'assets/img/default.jpg',
+            description: '',
+            price: 15200
+        },
+        {
+            title: 'Errázuriz Max Reserva',
+            photo: 'assets/img/default.jpg',
+            description: '',
+            price: 19800
+        }
     ];
   }
 

@@ -14,16 +14,28 @@ export class TintoOtros {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Valdivieso, Single Vineyard',
+        title: 'Santa Rita Medalla Real',
         photo: 'assets/img/default.jpg',
         description: 'Cabernet Franc', 
-        price: 20750
+        price: 11900
       },
       { 
-        title: 'De Martino Vigno - Carignan',
+        title: 'Finca La Linda Old Vines',
         photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 32900
+        description: '(Argentina)',
+        price: 19800
+      },
+      {
+        title: 'Kaiken Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '',
+        price: 15900
+      },
+      {
+        title: 'Luigi Bosca Reserva',
+        photo: 'assets/img/default.jpg',
+        description: '(Argentina)',
+        price: 23400
       }
     ];
   }

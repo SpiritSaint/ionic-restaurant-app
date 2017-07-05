@@ -14,16 +14,16 @@ export class BlancoLates {
   constructor(public http: Http) {
   	this.data = [
       { 
-        title: 'Tamaya Sweet Goat',
+        title: 'Toro de Piedra Gran Reserva',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 12000
+        price: 12900
       },
       { 
-        title: 'Tabali Reserva',
+        title: 'Casa Patronales Lujuria',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 17500
+        price: 18900
       }
     ];
   }

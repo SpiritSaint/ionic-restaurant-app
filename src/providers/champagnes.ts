@@ -14,70 +14,70 @@ export class Champagnes {
   constructor(public http: Http) {
     this.data = [
       { 
-        title: 'Cinzano Asti, Italiano',
+        title: 'Cono Sur Sparklin Brut',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 14200
+        price: 12900
       },
       { 
-        title: 'Cinzano Prosecco, Italiano',
+        title: 'Cono Sur Sparkling Brut, 375ml.',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 14200
+        price: 9200
       },
       { 
-        title: 'Prosecco D.O.C. BEL STAR, espumoso Brut',
+        title: 'Chandon Brut',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 20800
-      },
-      { 
-        title: 'Cono Sur Sparkling Brut',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 17500
-      },
-      { 
-        title: 'Cuvee Rose BEL Start Espumosos Rosado Extra Dry',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 20800
-      },
-      { 
-        title: 'Riccadonna Asti, Sparkling Wine, Italiano',
-        photo: 'assets/img/default.jpg',
-        description: '', 
-        price: 8700
+        price: 21600
       },
       { 
         title: 'Freixenet Cordon Negro Brut',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 19650
+        price: 18900
       },
       { 
-        title: 'Finca Flichman, Extra Brut',
+        title: 'Riccadonna Asti, Sparkling Wine, Italiano, 200ml',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 20750
+        price: 8900
       },
       { 
-        title: 'Drappier Carte D´Or Brut',
+        title: 'Riccadonna Asti, Italiano',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 71250
+        price: 21900
       },
       { 
-        title: 'Veuve Cliquot Brut',
+        title: 'Riccadonna Prosecco, Italiano',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 97700
+        price: 21900
       },
       { 
-        title: 'Riccadona President, Brut, Italiano',
+        title: 'Chandon Brut, 187ml.',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 19650
+        price: 9600
+      },
+      { 
+        title: 'Veuve Cliquot Brut, 375ml.',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 56800
+      },
+      { 
+        title: 'Chandon Demi Sec',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 21600
+      },
+      { 
+        title: 'Chandon Rose',
+        photo: 'assets/img/default.jpg',
+        description: '', 
+        price: 23900
       }
     ];
   }
