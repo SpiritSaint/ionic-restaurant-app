@@ -27,7 +27,7 @@ export class InsalateSaladas {
       },
       { 
         title: 'Don Gustavo', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/insalate/don-gustavo.jpg',
         description: 'Congrio grillado con baby mix, tomate cherry y salsa de mostaza.', 
         price: 12500
       },
@@ -51,13 +51,13 @@ export class InsalateSaladas {
       },
       { 
         title: 'Ensalada César Camarones', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/insalate/ensalada-cesar-camarones.jpg',
         description: '', 
         price: 11300
       },
       { 
         title: 'Ensalada César Pollo', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/insalate/ensalada-cesar-pollo.jpg',
         description: '', 
         price: 9750
       }];

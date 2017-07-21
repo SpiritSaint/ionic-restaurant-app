@@ -27,7 +27,7 @@ export class Pesce {
       },
       { 
         title: 'Congrio a la Libornesa', 
-        photo: 'assets/img/pesce/congrio-a-la-livornesa.jpg',
+        photo: 'assets/img/pesce/congrio-a-la-libornesa.jpg',
         description: '', 
         price: 14300
       },
@@ -63,7 +63,7 @@ export class Pesce {
       },
       { 
         title: 'Congrio a la Plancha', 
-        photo: 'assets/img/pesce/congrio-plancha.jpg',
+        photo: 'assets/img/pesce/congrio-a-la-plancha.jpg',
         description: '', 
         price: 13900
       },

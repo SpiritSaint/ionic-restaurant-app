@@ -15,7 +15,7 @@ export class Carni {
     this.data = [
       { 
         title: 'Escaloppines de Pollo al Limón',
-        photo: 'assets/img/carni/escalopines-de-pollo.jpg',
+        photo: 'assets/img/carni/escalopines-de-pollo-al-limon.jpg',
         description: 'Escalopin de pollo al vino o al limón.', 
         price: 10150
       }, 
@@ -39,7 +39,7 @@ export class Carni {
       },
       { 
         title: 'Filete Parrilla', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/carni/filete-parrilla.jpg',
         description: '(Precio no incluye acompañante)', 
         price: 13550
       },
@@ -57,7 +57,7 @@ export class Carni {
       },
       { 
         title: 'Filete Mignon', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/carni/filete-mignon.jpg',
         description: '(Precio no incluye acompañante)', 
         price: 14650
       },
@@ -69,43 +69,43 @@ export class Carni {
       },
       { 
         title: 'Filete Chateau', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/carni/filete-chetau.jpg',
         description: '(Precio no incluye acompañante)', 
         price: 16150
       },
       { 
         title: 'Escalopa Kayser', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/carni/escalopa-kaiser.jpg',
         description: 'De filete / Con jamón y queso.', 
         price: 13550
       },
       { 
         title: 'Filete Salsa Pimienta', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/carni/filete-salsa-pimienta.jpg',
         description: '(Precio no incluye acompañante)', 
         price: 13950
       },
       { 
         title: 'Escalopa Napoletana', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/carni/escalopa-napoletana.jpg',
         description: 'De filete.', 
         price: 13650
       },
       { 
         title: 'Filete Salsa Funghi', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/carni/filete-salsa-funghi.jpg',
         description: '(Precio no incluye acompañante)', 
         price: 13950
       },
       { 
         title: 'Lomo Parrilla', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/carni/lomo-parrilla.jpg',
         description: '(Precio no incluye acompañante)', 
         price: 12900
       },
       { 
         title: 'Escaloppines al Marsala', 
-        photo: 'assets/img/carni/escalopines-al-marsala.jpg',
+        photo: 'assets/img/carni/escaloppines-al-marsala.jpg',
         description: '(Precio no incluye acompañante)', 
         price: 13400
       },

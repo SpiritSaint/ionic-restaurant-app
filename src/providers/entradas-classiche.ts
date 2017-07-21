@@ -15,25 +15,25 @@ export class EntradasClassiche {
     this.data = [
       { 
         title: 'Gamberi in tante forme fritos', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/entradas/gamberi-in-tante-forme-fritos.jpg',
         description: '', 
         price: 11300
       },
       { 
         title: 'Prosciutto dello Stivale melón', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/entradas/prosciutto-dello-stivale-melon.jpg',
         description: 'Jamón crudo italiano con melón', 
         price: 13950
       },
       { 
         title: 'Prosciutto dello Stivale palmito', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/entradas/prosciutto-dello-stivale-palmito.jpg',
         description: 'Jamón crudo italiano con palmitos.', 
         price: 13950
       },
       { 
         title: 'Carpaccio "Osteria Gustavo"', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/entradas/carpaccio-osteria-gustavo.jpg',
         description: 'Carpaccio de Filete de res.', 
         price: 7850
       },
@@ -51,7 +51,7 @@ export class EntradasClassiche {
       },
       { 
         title: 'Regine del Mare', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/entradas/regine-del-mare.jpg',
         description: 'Clásico ostiones a la parmesana.', 
         price: 11200
       },
@@ -87,13 +87,13 @@ export class EntradasClassiche {
       },
       { 
         title: 'Tanti Formaggi', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/entradas/tanti-formaggi.jpg',
         description: 'Surtidos de quesos con frutos secos (para dos)', 
         price: 18400
       },
       { 
         title: 'Carpaccio "Ostería Gustavo"', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/entradas/carpaccio-osteria-gustavo-salmon.jpg',
         description: 'Carpaccio de Filete de salmón.', 
         price: 7850
       },
@@ -105,7 +105,7 @@ export class EntradasClassiche {
       },
       { 
         title: 'Gamberi in tante forme al pil pil', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/entradas/gamberi-in-tante-forme-al-pil-pil.jpg',
         description: '', 
         price: 11300
       },

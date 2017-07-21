@@ -46,13 +46,13 @@ export class PasteClassiche {
       },
       { 
         title: 'Spaghetti Panna Mare', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/spaghetti-panna-mare.jpg',
         description: 'Con crema natural y mariscos.', 
         price: 13050
       },
       { 
         title: 'Fetuccine al Roquefort', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/fetuccine-al-roquefort.jpg',
         description: '', 
         price: 12750
       },
@@ -76,7 +76,7 @@ export class PasteClassiche {
       },
       { 
         title: 'Ravioli Alfredo', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/ravioli-alfredo.jpg',
         description: 'Con crema y jamón.', 
         price: 12200
       },
@@ -88,13 +88,13 @@ export class PasteClassiche {
       },
       { 
         title: 'Capelletti Alfredo', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/capelletti-alfredo.jpg',
         description: 'Con crema y jamón.', 
         price: 12100
       },
       { 
         title: 'Capelletti Bolagnesa', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/capelletti-bolognesa.jpg',
         description: 'Un clásico italiano, esquisitos.', 
         price: 12100
       },
@@ -106,7 +106,7 @@ export class PasteClassiche {
       },
       { 
         title: 'Gnocchi 4 Quesos Gratinados', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/gnocchi-4-quesos-gratinados.jpg',
         description: '', 
         price: 12300
       },
@@ -124,7 +124,7 @@ export class PasteClassiche {
       },
       { 
         title: 'Agnelotti Napoletana', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/agnelotti-napoletana.jpg',
         description: 'Bolognesa.', 
         price: 12300
       },
@@ -136,31 +136,31 @@ export class PasteClassiche {
       },
       { 
         title: 'Agnelotti Alle Noci', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/agnelotti-alle-noci.jpg',
         description: 'Con salsa de nuez.', 
         price: 13000
       },
       { 
         title: 'Agnelotti Burro Salvia', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/agnelotti-burro-salvia.jpg',
         description: 'Con mantequilla y salvia.', 
         price: 13000
       },
       { 
         title: 'Lasagna Due Torri Gratinada', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/lasagna-due-torri-gratinada.jpg',
         description: '', 
         price: 11700
       },
       { 
         title: 'Penne la Arrabbiata', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/penne-la-arrabbiata.jpg',
         description: 'Semi picante', 
         price: 11700
       },
       { 
         title: 'Tagliatella salsa Bolognesa o Napolitana', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/tagliatelle-salsa-bolognesa-o-napolitana.jpg',
         description: '', 
         price: 9850
       },
