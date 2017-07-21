@@ -21,7 +21,7 @@ export class Analcoholicos {
       },
       { 
         title: 'Jugos',
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/bar/analcoholico/jugo.jpg',
         description: '', 
         price: 3200
       },

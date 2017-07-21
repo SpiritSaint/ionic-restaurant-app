@@ -68,38 +68,38 @@ export class Pesce {
         price: 13900
       },
       { 
-        title: 'Tilapia Salsa Centollas', 
-        photo: 'assets/img/default.jpg',
+        title: 'Corvina / Merluza Austral salsa Centolla',
+        photo: 'assets/img/pesce/corvina-merluza-salsa-austral-centolla.jpg',
         description: '', 
         price: 15200
       },
       { 
-        title: 'Tilapia Meuniere Gambas', 
-        photo: 'assets/img/pesce/tilapia-meuniere.jpg',
+        title: 'Corvina / Merluza Austral salsa Gambas',
+        photo: 'assets/img/pesce/corvina-merluza-austral-salsa-gambas.jpg',
         description: '', 
         price: 14900
       },
       { 
-        title: 'Tilapia a la Parrilla', 
-        photo: 'assets/img/default.jpg',
+        title: 'Corvina / Merluza Austral a la parrilla',
+        photo: 'assets/img/pesce/corvina-merluza-austral-a-la-parrilla.jpg',
         description: '', 
         price: 12900
       },
       { 
-        title: 'Tilapia Salsa Gambas', 
-        photo: 'assets/img/default.jpg',
+        title: 'Corvina / Merluza Austral salsa Meuniere',
+        photo: 'assets/img/pesce/corvina-merluza-austral-salsa-meuniere.jpg',
         description: '', 
         price: 14500
       },
       { 
-        title: 'Milanesa de Tilapia', 
+        title: 'Corvina / Merluza Austral Le Due Torri',
         photo: 'assets/img/default.jpg',
-        description: '(Precio no incluye acompañamiento, fotografía referencial)', 
+        description: 'Sobre una cama de rúcula, palta y camarones.',
         price: 16900
       },
       { 
         title: 'Congrio Meuniere con Gambas', 
-        photo: 'assets/img/pesce/congrio-meuniere.jpg',
+        photo: 'assets/img/pesce/congrio-meuniere-con-gambas.jpg',
         description: '', 
         price: 14950
       },
@@ -111,7 +111,7 @@ export class Pesce {
       },
       { 
         title: 'Congrio Crocante Perlan', 
-        photo: 'assets/img/pesce/congrio-perlan.jpg',
+        photo: 'assets/img/pesce/congrio-crocante-perlan.jpg',
         description: '', 
         price: 13550
       },

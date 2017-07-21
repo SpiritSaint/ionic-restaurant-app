@@ -21,7 +21,7 @@ export class DolciPostres {
       },
       { 
         title: 'Crema Cotta di Don Luigi', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/dolce/crema-cotta-di-don-luigi.jpg',
         description: 'Creme brule con chocolate especiado y manzanas al cardamomo.', 
         price: 5650
       },
@@ -75,7 +75,7 @@ export class DolciPostres {
       },
       { 
         title: 'Colori di Stagione', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/dolce/colori-di-stagione.jpg',
         description: 'Ensalada de frutas de la temporada.', 
         price: 5650
       },
