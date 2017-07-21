@@ -33,7 +33,7 @@ export class Zuppe {
       },
       { 
         title: 'Cappelletti in brodo Due Torri', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/zuppe/cappelletti-in-brodo-due-torri.jpg',
         description: '(Exquisitos)',
         price: 10200
       },

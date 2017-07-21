@@ -57,7 +57,7 @@ export class PasteBordeRio {
       },
       { 
         title: 'Giorgone', 
-        photo: 'assets/img/default.jpg',
+        photo: 'assets/img/pasta/giorgone.jpg',
         description: 'Gnocchi gratinados con salsa napolitana, orégano y quesos mozzarella.', 
         price: 12300
       },
