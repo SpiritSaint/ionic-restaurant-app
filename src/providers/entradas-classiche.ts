@@ -112,7 +112,7 @@ export class EntradasClassiche {
       {
         title: 'Prosciutto Milanesa',
         photo: 'assets/img/default.jpg',
-        description: '',
+        description: 'Jamón crudo italiano con melón o palmito.',
         price: 11300
       }
       ];

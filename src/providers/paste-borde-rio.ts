@@ -92,7 +92,7 @@ export class PasteBordeRio {
         price: 14100
       },
       { 
-        title: 'Cannelloni del 3 Tenori"', 
+        title: 'Cannelloni del 3 Tenori',
         photo: 'assets/img/pasta/cannelloni-del-3-tenori.jpg',
         description: 'Cannelloni gratinados de masas de gnocchi camarones queso.', 
         price: 13500

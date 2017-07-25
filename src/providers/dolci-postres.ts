@@ -16,7 +16,7 @@ export class DolciPostres {
       { 
         title: 'Cioccolato e Amarene di Perugia', 
         photo: 'assets/img/dolce/cioccolato-e-amarene-di-perugia.jpg',
-        description: 'Mousse de Chocolate y cerezas "Amarena Italiana"', 
+        description: 'Mousse de Chocolate y cerezas Amarena Italiana', 
         price: 5650
       },
       { 
