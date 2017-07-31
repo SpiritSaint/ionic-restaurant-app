@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController, NavParams, Slides } from 'ionic-angular';
+import { NavController, NavParams, Slides, Platform } from 'ionic-angular';
+import {Deploy} from '@ionic/cloud-angular';
 
 import { IndicePage } from '../indice/indice';
 import { NosotrosPage } from '../nosotros/nosotros';
@@ -19,7 +20,24 @@ import { BuscadorPage } from '../buscador/buscador';
 })
 export class InicioPage {
   @ViewChild(Slides) slides: Slides;
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public deploy: Deploy, public plt: Platform) {
+
+      this.deploy.channel = 'production';
+
+
+      this.deploy.check().then((snapshotAvailable: boolean) => {
+        if (snapshotAvailable) {
+          this.deploy.download().then(() => {
+            return this.deploy.extract();
+          }).then(() => {
+            this.deploy.load();
+          });
+
+        } else {
+          console.log("App updated");
+        }
+      });
+
   }
 
   ionViewDidLoad() {
