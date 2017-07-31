@@ -1,4 +1,5 @@
 import { NgModule, ErrorHandler } from '@angular/core';
+import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { InicioPage } from '../pages/inicio/inicio';
@@ -41,6 +42,12 @@ import { TranslateModule } from "ng2-translate";
 import { CommaPipe } from './comma.pipe';
 
 import { EntradasBordeRio } from '../providers/entradas-borde-rio';
+
+const cloudSettings: CloudSettings = {
+  'core': {
+    'app_id': 'e2e44847'
+  }
+};
 
 @NgModule({
   declarations: [
@@ -87,6 +94,7 @@ import { EntradasBordeRio } from '../providers/entradas-borde-rio';
     BrowserModule,
     HttpModule,
     TranslateModule.forRoot(),
+    CloudModule.forRoot(cloudSettings)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
