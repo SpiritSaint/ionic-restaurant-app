@@ -1,8 +1,8 @@
 {
-    "name": "ionic-hello-world",
-    "author": "Ionic Framework",
-    "homepage": "http://ionicframework.com/",
-    "private": true,
+    "name": "LeDueTorri",
+    "author": "Ian Torres",
+    "homepage": "https://iantorres.me/",
+    "private": false,
     "scripts": {
         "clean": "ionic-app-scripts clean",
         "build": "ionic-app-scripts build",
@@ -44,7 +44,7 @@
         "ionic-plugin-keyboard"
     ],
     "cordovaPlatforms": [],
-    "description": "App: An Ionic project",
+    "description": "LeDueTorri: An Restaurant Ionic based project",
     "cordova": {
         "plugins": {
             "ionic-plugin-deploy": {}
