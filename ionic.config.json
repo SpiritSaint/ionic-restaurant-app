@@ -1,5 +1,8 @@
 {
   "name": "LeDueTorri",
-  "app_id": "e2e44847",
-  "type": "ionic-angular"
+  "app_id": "2707af33",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }
