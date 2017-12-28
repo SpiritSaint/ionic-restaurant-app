@@ -24,7 +24,7 @@ export class CafesPage {
         title: 'Café Frangelico Italiano',
         photo: 'assets/img/default.jpg',
         description: '', 
-        price: 3550
+        price: 5000
       },
       { 
         title: 'Cortado',
